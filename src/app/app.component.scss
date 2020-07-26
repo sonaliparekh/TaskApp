@@ -1,0 +1,86 @@
+.container {
+    padding: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin: 20px;
+}
+
+.list-name {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-name {
+    max-width: 100px;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.icon-class {
+    float: right;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.card-block {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.list-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.card {
+    text-align: center;
+}
+
+.lists-block {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
